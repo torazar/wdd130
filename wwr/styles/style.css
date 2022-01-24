@@ -1,11 +1,19 @@
 body{
-    background-color: green;
+    background-color: rgb(121, 29, 29);
  
 }
 
 #hero-img {
-    width: 50 px;
+    width: 50px;
 }
 h1{
     font-size: 3em;
+    color: forestgreen;
+}
+h2{
+color: forestgreen;
+    font-size: 5em;
+}
+#stuff{
+color :green;
 }
