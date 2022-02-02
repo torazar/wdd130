@@ -1,0 +1,16 @@
+section{
+    
+    border: 5px solid forestgreen;
+
+padding: 50px;
+margin: 50px auto;
+background-color: maroon;
+border-radius: 20%;
+}
+#picture{
+    text-align: center;
+    border-radius: 120%;
+   width: 150px;
+   height: 150px;
+    overflow: auto;
+}
