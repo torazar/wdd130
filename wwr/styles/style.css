@@ -1,45 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:wght@100&display=swap');
 body{
     background-color: #345B3B;
     /* #9CA4AB
     #545454 */
     color: black;
+    --paragraph-font: Raleway, Helvetica, sans-serif;
+    
+        font-family: var(--paragraph-font);
+        font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+
+
+
+nav a {
+    padding: 35px;
+    text-align: center;
+    color: red;
+    text-decoration: none;
+    font-family: verdana, serif;
+}
+a{
+    font-family: verdana, serif;
+}
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
-
+#hero-msg h1{
+    text-align: center;
+}
 #hero-img {
     width: 100%
 }
-.logo {
-    width: 80px;
-}
-.icon{
-    width: 80px;
-}
-
-nav a {
-    text-align: center;
-    color: red;
-    text-decoration: none;
+#stuff{
+    color :green;
+    }
+    #background{
+        background-color: #545454;
+        height: 725px;
+    }
+#logo_link{
+    padding-top: 5px;
 }
 
-#hero-msg h1{
-    text-align: center;
-}
-#hero-msg h1{
-    text-align: center;
-}
-.button-box{
-    text-align: center;
-}
 main section{
     text-align: center;
 }
-
+main section img{
+    box-sizing: border-box;
+}
 footer{
     background-color: #545454;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: white;
@@ -48,12 +65,14 @@ footer a{
 footer a:hover{
     color: black;
 }
+footer .social img{
+    padding-top: 15px;
+}
 header{
     background-color: #545454;
 }
-#background{
-    background-color: #545454;
-    height: 725px;
+.card-img{
+border: 10px solid white;
 }
 .book:hover, .join:hover{
     background-color: #9CA4AB;
@@ -62,21 +81,51 @@ header{
     background-color: #545454;
     color: red;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+.home-title{
+    font-size: 2em;
+    margin-top: 10px;
+}
+.button-box{
+    text-align: center;
+}
+
+.rivers-card, -camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.logo {
+    width: 80px;
+}
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+.msg{
+    background-color: #9CA4AB;
+    padding: 35px;
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
 nav a:hover{
+    
     background-color: #9CA4AB;
 }
 h1{
+    font-family:Dancing Script, verdana, serif;
     font-size: 3em;
     color: #9CA4AB;
 }
 h2{
+    font-family:Dancing Script, verdana, serif;
 color: black; 
     font-size: 5em;
+    margin: 0;
 }
-#stuff{
-color :green;
-}
-.msg{
-    background-color: #9CA4AB;
-}
+
