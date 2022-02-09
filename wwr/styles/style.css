@@ -20,10 +20,10 @@ nav a {
     text-align: center;
     color: red;
     text-decoration: none;
-    font-family: verdana, serif;
+    font-family: verdana, trebuchet, serif;
 }
 a{
-    font-family: verdana, serif;
+    font-family: verdana, tebuchet, erif;
 }
 
 #content{
@@ -68,8 +68,7 @@ footer a:hover{
 footer .social img{
     padding-top: 15px;
 }
-header{
-    background-color: #545454;
+header{    background-color: #545454;
 }
 .card-img{
 border: 10px solid white;
@@ -114,8 +113,7 @@ border: 10px solid white;
 }
 
 nav a:hover{
-    
-    background-color: #9CA4AB;
+        background-color: #9CA4AB;
 }
 h1{
     font-family:Dancing Script, verdana, serif;
