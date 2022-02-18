@@ -136,7 +136,7 @@ border: 10px solid white;
     text-align: center;
 }
 
-.rivers-card, -camping-card, .rapids-card{
+.rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
 .logo {
