@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demosofflex</title>
+<style>
+    header{
+        background-color: forestgreen;
+    }
+a{
+    color:maroon;
+    text-decoration: none;
+    font-size: 3em;
+    padding: .8rem;
+    display: inline-block;
+    
+}
+a:hover{
+    color: forestgreen;
+    background-color: maroon;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+  
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container section{
+    flex: 200px;
+border: 1px solid black;
+padding: 1em;
+}
+
+
+
+@media screen and (max-width: 500px){
+nav{
+    flex-direction: column;
+}
+
+}
+
+</style>
+
+
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="+">Page1</a>
+            <a href="+">Page2</a>
+            <a href="+">Page3</a>
+            <a href="+">Page4</a>
+            <a href="+">Page5</a>
+        </nav>
+    </header>
+<div class="flex-container">
+    <section>
+        <h2>secttion1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur
+             adipisicing elit. Id, laboriosam. Placeat alias quibusdam reprehenderit tempora? Odio eos suscip
+             it neque, voluptates dicta dolor deserunt quisquam consectetur nisi nam eum, ullam corporis.</p>
+    </section>
+    <section>
+        <h2>secttion2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur
+             adipisicing elit. Id, laboriosam. Placeat alias quibusdam reprehenderit tempora? Odio eos suscip
+             it neque, voluptates dicta dolor deserunt quisquam consectetur nisi nam eum, ullam corporis.</p>
+    </section>
+    <section>
+        <h2>secttion3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur
+             adipisicing elit. Id, laboriosam. Placeat alias quibusdam reprehenderit tempora? Odio eos suscip
+             it neque, voluptates dicta dolor deserunt quisquam consectetur nisi nam eum, ullam corporis.</p>
+    </section>
+    <section>
+        <h2>secttion4</h2>
+        <p>Lorem ipsum dolor sit amet consectetur
+             adipisicing elit. Id, laboriosam. Placeat alias quibusdam reprehenderit tempora? Odio eos suscip
+             it neque, voluptates dicta dolor deserunt quisquam consectetur nisi nam eum, ullam corporis.</p>
+    </section>
+</div>
+<main>
+    <h1>flex demo</h1>
+</main>
+
+
+
+</body>
+</html>
