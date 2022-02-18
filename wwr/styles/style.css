@@ -181,7 +181,7 @@ border: 10px solid white;
 .mountains{
     grid-column: 2/7;
     grid-row: 5/8;
-    width: 100%;
+   
     box-shadow: 5px 5px 10px #6f7364;
 }
 .msg{
