@@ -4,15 +4,17 @@ body{
     /* #9CA4AB
     #545454 */
     color: black;
-    --paragraph-font: Raleway, Helvetica, sans-serif;
+   
     
-        font-family: var(--paragraph-font);
+        font-family: Raleway, Helvetica, sans-serif;
         font-size: 22px;
     margin: 0;
     padding: 0;
 }
 
-
+*{
+    box-sizing: border-box;
+}
 
 
 nav a {
@@ -43,8 +45,10 @@ a{
     margin: 0 auto;
 }
 #hero-msg h4{
-    color: yellow;
+    /* color: yellow; */
     text-align: center;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #hero-msg h1{
     text-align: center;
@@ -194,7 +198,37 @@ border: 10px solid white;
 }
 
 
+.twohead img{
+    width: 1fr;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.twohead h1{
+    grid-column: 2/3;
+    color: orange;
+    grid-row: 1/2;
+    text-align: center;
+}
+.twohead{
+    display: grid;
+    grid-template-columns: 1fr 150px 1fr;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
 
+.things{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 400px 400px 400px; */
+    justify-items: center;
+}
+.comment{
+    color: white;
+}
 
 
 nav a:hover{
@@ -232,6 +266,7 @@ color: black;
     }
     #hero-msg h4 {
         display: none;
+       
     }
     .home-title {
         font-size: 25px;
