@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactform</title>
+
+    <style>
+*{
+    box-sizing: border-box;
+}
+form{
+    max-width: 40rem;
+}
+form label,
+form input,
+form textarea,
+form button{
+    width: 20rem;
+    display: block;
+    margin: 0;
+    /* padding: 0.75rem; */
+}
+form input,
+form textarea,
+form button{
+   padding: 0.75rem;
+}
+form input,
+form textarea{
+    margin-bottom: 0.75rem;
+}
+
+    </style>
+</head>
+<body>
+    
+    <h1>Contact Us</h1>
+    <form action="thankyou.html">
+        <label for="fname">Please put in your first name:</label>
+<input type="text" name="fname" id="fname" placeholder="Your a nerd." autofocus>
+    
+        <label for="lname">Please put in your Last name:</label>
+<input type="text" name="lname" id="lname" placeholder= "What a Nerd!">
+<label for="comment">What did you have to say?</label>
+<textarea name="comment" id="comment" placeholder="No one really cares what you have to say."></textarea>
+
+<button type="submit">Click me!</button>
+    </form>
+    
+</body>
+</html>
