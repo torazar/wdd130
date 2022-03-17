@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:wght@100&family=UnifrakturMaguntia&display=swap');
+
+
+
+
+nav{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+header img{
+    width: 100px;
+}
+a{
+    font-family: "UnifrakturMaguntia", Dancing Script, Serif;
+}
+header a{
+    text-decoration: none;
+color: white;
+}
+header{
+    background-color: #A42212;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family: Dancing Script, Verdana, serif;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #73E2A7;
+    margin-top: 100px;
+}
+footer a{
+    text-decoration: none;
+    color: red;
+}
+body{
+    background-color: #1B512D;
+}
+p{
+    color: white;
+    font-family: Raleway, Helvetica, sans-serif;;
+}
+h1{
+    text-align: center;
+    font-family: "UnifrakturMaguntia", DancingScript, Serif;
+}
+
+#home{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#home h2{
+    grid-column: 2/3;
+    color: white;
+    grid-row: 1/2;
+    z-index: 1;
+    margin-top: 5em;
+    text-align: center;
+}
+#home img{
+    grid-column: 1/4;
+    grid-row: 1/2;
+   width: 80%;
+   margin: 2em auto;
+   
+}
+.row{
+    display: flex;
+justify-content: space-around;
+margin: 30px auto;
+}
+.row img{
+    width: 300px;
+}
+.question{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.foot{
+    color: black;
+}
