@@ -35,6 +35,9 @@ footer{
     background-color: #73E2A7;
     margin-top: 100px;
 }
+footer p{
+    color: black;
+}
 footer a{
     text-decoration: none;
     color: red;
@@ -49,6 +52,9 @@ p{
 h1{
     text-align: center;
     font-family: "UnifrakturMaguntia", DancingScript, Serif;
+}
+h3{
+    color: white;
 }
 
 #home{
@@ -86,4 +92,29 @@ margin: 30px auto;
 }
 .foot{
     color: black;
+}
+.video{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.video p{
+    width: 25%
+}
+/* .video video{
+    width: 74%
+} */
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+    margin-right: 2em;
+}
+.listitem img{
+max-width: 500px;
+
+}
+.box{
+    text-align: center;
 }
