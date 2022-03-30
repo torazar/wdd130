@@ -57,6 +57,10 @@ h1{
 h3{
     color: white;
 }
+footer img{
+    padding-right: 15px;
+    padding: 10px;
+}
 
 #home{
     display: grid;
@@ -90,6 +94,9 @@ margin: 30px auto;
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
+}
+.social{
+    padding-right: 50px;
 }
 .foot{
     color: black;
